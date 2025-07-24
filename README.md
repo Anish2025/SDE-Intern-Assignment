@@ -1,4 +1,4 @@
-# 🧑‍💻 SDE Intern Assignment – Task Management API
+#  SDE Intern Assignment – Task Management API
 
 Welcome to the Task Management API — a backend service built using **Node.js** and **Express.js (JavaScript)** as part of an SDE Intern assignment.
 
@@ -6,7 +6,7 @@ This simple REST API allows you to manage tasks — create, read, update, and de
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - Node.js
 - Express.js
@@ -16,7 +16,7 @@ This simple REST API allows you to manage tasks — create, read, update, and de
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -41,11 +41,11 @@ node index.js
 
 ---
 
-## 📬 API Endpoints
+##  API Endpoints
 
 Base URL: `http://localhost:3000/api`
 
-### ➕ Create Task  
+###  Create Task  
 **POST** `/tasks`
 
 Create a new task.
@@ -73,7 +73,7 @@ Create a new task.
 
 ---
 
-### 📄 Get All Tasks  
+###  Get All Tasks  
 **GET** `/tasks`
 
 Retrieve all tasks. Supports optional filtering and pagination.
@@ -97,7 +97,7 @@ Retrieve all tasks. Supports optional filtering and pagination.
 
 ---
 
-### 🔍 Get Task by ID  
+###  Get Task by ID  
 **GET** `/tasks/:id`
 
 Retrieve a specific task by its ID.
@@ -113,7 +113,7 @@ Retrieve a specific task by its ID.
 
 ---
 
-### ✏️ Update Task  
+### ✏ Update Task  
 **PUT** `/tasks/:id`
 
 Update an existing task.
@@ -137,7 +137,7 @@ Update an existing task.
 
 ---
 
-### ❌ Delete Task  
+###  Delete Task  
 **DELETE** `/tasks/:id`
 
 Delete a task by ID.
@@ -151,7 +151,7 @@ Delete a task by ID.
 
 ---
 
-## 📘 Task Object Structure
+##  Task Object Structure
 
 ```json
 {
@@ -166,28 +166,5 @@ Delete a task by ID.
 
 ---
 
-## 🧪 How to Test
 
-You can test the API using:
-- [Postman](https://www.postman.com/)
-- [Thunder Client (VS Code Extension)](https://www.thunderclient.com/)
-- `curl` in the terminal
-
-Example:
-```bash
-curl http://localhost:3000/api/tasks
-```
-
----
-
-## 📝 Submission Instructions
-
-- Push your code to a public GitHub repository.
-- Email the repository link to **development@synegrow.com**
-- **Deadline:** 26th July 2025, before 5:00 PM IST
-
----
-
-## 👨‍💻 Author
-
-Made with 💻 by [Anish Sharma](https://github.com/Anish2025)
+Made with  by [Anish Sharma](https://github.com/Anish2025)
